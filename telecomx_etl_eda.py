@@ -1,12 +1,5 @@
 # telecomx_etl_eda.py
 # ------------------------------------------------------------
-# ETL + EDA para Churn de Clientes - Telecom X
-# - Lê JSON (aninhado ou não)
-# - Limpa/padroniza, cria features
-# - Gera CSV limpo, gráficos e relatório Markdown
-# Uso:
-#   python telecomx_etl_eda.py --input TelecomX_Data.json --outdir ./saidas
-# ------------------------------------------------------------
 
 import argparse
 import json
